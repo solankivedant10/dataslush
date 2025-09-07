@@ -1,0 +1,20 @@
+/* frontend/src/App.css */
+body { font-family: Inter, Arial, sans-serif; margin:0; padding:0; background:#f7fafc; color:#111; }
+header { padding:20px; background:#0ea5a5; color:white; }
+.App { display:flex; flex-direction:column; min-height:100vh; }
+main { display:flex; gap:20px; padding:20px; align-items:flex-start; }
+.jobs-list { flex: 0 0 320px; display:flex; flex-direction:column; gap:10px; }
+.job-card { background:white; padding:12px; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.06); cursor:pointer; }
+.job-card:hover { transform:translateY(-3px); transition:all 120ms ease; }
+.results { flex:1; padding:12px; background:white; border-radius:8px; box-shadow:0 2px 12px rgba(0,0,0,0.06); }
+.candidate-row { display:flex; justify-content:space-between; padding:10px 6px; border-bottom:1px solid #eee; }
+.candidate-row .left { max-width:60%; }
+.candidate-row .right { text-align:right; }
+.placeholder { padding:40px; color:#666; }
+.explain-box {
+  margin-top: 8px;
+  padding: 8px;
+  background: #eefdfd;
+  border-left: 3px solid #0ea5a5;
+  font-size: 0.9rem;
+}
